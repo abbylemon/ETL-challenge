@@ -9,3 +9,9 @@ store_locations_db
 target
 
 starbucks
+
+
+### Cleaning protocols
+US only
+
+zip-code only first 5 digits
