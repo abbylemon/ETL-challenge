@@ -7,4 +7,5 @@ store_locations_db
 
 ## Table names
 target
+
 starbucks
