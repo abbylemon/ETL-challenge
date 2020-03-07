@@ -6,9 +6,9 @@ pulling data and using ETL tools
 store_locations_db
 
 ## Table names
-target
+target_locations
 
-starbucks
+starbucks_locations
 
 
 ### Cleaning protocols
