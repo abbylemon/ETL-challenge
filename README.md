@@ -10,6 +10,8 @@ target_locations
 
 starbucks_locations
 
+starbucks_menu
+
 
 ### Cleaning protocols
 US only
