@@ -16,6 +16,7 @@ We proceeded to create a SQL database with corresponding columns to stage it for
 
 ##### Cleaning protocols
 US only
+
 zip-code only first 5 digits
 
 ### LOAD:
