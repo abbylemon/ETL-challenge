@@ -38,7 +38,11 @@ Upon the completion of the data transformation, we finalized our code and create
 
 4. Generate all tables by copying and pasting the contents from `ETL-challenge.sql` and exicute 
 
-5. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data. Validate this by running the following queries in your Query Tool
+5. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data by using exicutable:
+        
+        runipy Resources/ETL-Notebook.ipynb
+
+6. Validate this by running the following queries in your Query Tool. 
 
         select * from target_locations;
          
