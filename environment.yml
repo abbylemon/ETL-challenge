@@ -1,0 +1,9 @@
+name: LemonETL
+channels:
+  - defaults
+dependencies:
+  - jupyter=1.*
+  - numpy
+  - pandas
+  - python=>3.6
+  - sqlalchemy=1.3.*
