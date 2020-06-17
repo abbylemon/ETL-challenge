@@ -24,17 +24,6 @@ zip-code only first 5 digits
 Upon the completion of the data transformation, we finalized our code and created the connection to PostgreSQL and loaded the data using Python. We choose this method because it allowed us to create a database with the data of interest for further analysis. This data was also very structured, so we thought a SQL database would suit this data type best. The relational nature of this data also lead us to use PostgreSQL.
 
 
-## Database name
-store_locations_db
-
-## Table names
-target_locations
-
-starbucks_locations
-
-starbucks_menu
-
-
 # To Exicute This Notebook
 
 1. Create the environment from the environment.yml file:
