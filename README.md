@@ -19,6 +19,7 @@ US only
 
 zip-code only first 5 digits
 
+
 ### LOAD:
 Upon the completion of the data transformation, we finalized our code and created the connection to PostgreSQL and loaded the data using Python. We choose this method because it allowed us to create a database with the data of interest for further analysis. This data was also very structured, so we thought a SQL database would suit this data type best. The relational nature of this data also lead us to use PostgreSQL.
 
@@ -32,3 +33,20 @@ target_locations
 starbucks_locations
 
 starbucks_menu
+
+
+# To Exicute This Notebook
+
+1. Create the environment from the environment.yml file:
+
+        conda env create -f environment.yml
+       
+2. Activate the new environment:
+
+        conda activate LemonETL
+
+3. Create a SQL database called `store_locations_db`
+
+4. Generate all tables by copying and pasting the contents from `ETL-challenge.sql` and exicute 
+
+5. Run all cells in the `ETL-Notebook.ipynb`
