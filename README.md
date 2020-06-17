@@ -45,8 +45,12 @@ starbucks_menu
 
         conda activate LemonETL
 
-3. Create a SQL database called `store_locations_db`
+3. Create a PostgreSQL database called `store_locations_db`
 
 4. Generate all tables by copying and pasting the contents from `ETL-challenge.sql` and exicute 
 
-5. Run all cells in the `ETL-Notebook.ipynb`
+5. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data. Validate this by running the following queries in your Query Tool
+
+        select * from target_locations
+        select * from starbucks_menu
+        select * from starbucks_locations
