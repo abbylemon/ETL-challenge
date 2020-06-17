@@ -40,6 +40,8 @@ Upon the completion of the data transformation, we finalized our code and create
 
 5. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data. Validate this by running the following queries in your Query Tool
 
-        select * from target_locations
-        select * from starbucks_menu
-        select * from starbucks_locations
+        select * from target_locations;
+         
+        select * from starbucks_menu;
+         
+        select * from starbucks_locations;
