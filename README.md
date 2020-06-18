@@ -26,23 +26,25 @@ Upon the completion of the data transformation, we finalized our code and create
 
 # To Execute This Notebook
 
-1. Create the environment from the environment.yml file:
+1. Clone the repository
+
+2. Create the environment from the environment.yml file:
 
         conda env create -f environment.yml
        
-2. Activate the new environment:
+3. Activate the new environment:
 
         conda activate LemonETL
 
-3. Create a PostgreSQL database called `store_locations_db`
+4. Create a PostgreSQL database called `store_locations_db`
 
-4. Generate all tables by copying and pasting the contents from `ETL-challenge.sql` and exicute 
+5. Generate all tables by copying and pasting the contents from `ETL-challenge.sql` and exicute 
 
-5. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data by using exicutable:
+6. Run all cells in the `ETL-Notebook.ipynb` to populate SQL tables with cleaned data by using exicutable:
         
         runipy Resources/ETL-Notebook.ipynb
 
-6. Validate this by running the following queries in your Query Tool. 
+7. Validate this by running the following queries in your Query Tool. 
 
         select * from target_locations;
          
